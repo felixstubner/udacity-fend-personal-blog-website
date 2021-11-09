@@ -1,0 +1,114 @@
+@font-face {
+  font-family: roboto-regular;
+  src: url("/fonts/Roboto/Roboto-Regular.ttf");
+}
+
+@font-face {
+  font-family: roboto-bold;
+  src: url("/fonts/Roboto/Roboto-Bold.ttf");
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #2b2b2b;
+  border-left: 1px solid #555;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+body {
+  color: rgb(219, 219, 219);
+  background-color: #2b2b2b;
+  font-family: "roboto-regular";
+  font-size: medium;
+}
+
+/* Header */
+header {
+  background-color: #3d3d3d;
+}
+
+header a {
+  color: rgb(128, 128, 128);
+  text-decoration: none;
+  font-family: "roboto-bold";
+}
+
+.text-gold {
+  color: rgb(187, 159, 0);
+}
+
+.nav-item {
+  text-decoration: none;
+  color: grey;
+  font-family: "roboto-bold";
+}
+
+.nav-item:hover {
+  color: rgb(156, 156, 156);
+}
+
+/* Content */
+article {
+  background-color: #414648;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+article h2 {
+  border: 0 solid;
+  border-bottom: 1;
+  background-color: #414648;
+  margin-top: 0px;
+}
+
+article h2 a {
+  text-decoration: none;
+  color: rgb(187, 159, 0);
+}
+
+article h2 a:hover {
+  color: rgb(228, 194, 0);
+}
+
+article p {
+  border: 0;
+  background-color: #414648;
+  text-align: justify;
+  margin: 0px;
+}
+
+/* Footer */
+footer {
+  background-color: #3d3d3d;
+}
+
+.footer-flex-container {
+  background-color: #2b2b2b;
+  font-size: small;
+}
+
+.made-with a {
+  color: rgb(128, 128, 128);
+  text-decoration: none;
+}
+
+.made-with a:hover {
+  color: rgb(156, 156, 156);
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}

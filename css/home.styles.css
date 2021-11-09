@@ -1,0 +1,8 @@
+@import "common.styles.css";
+
+/* Content */
+.read-time {
+  font-size: small;
+  font-style: italic;
+  padding-bottom: 0.5rem;
+}

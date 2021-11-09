@@ -1,0 +1,55 @@
+@import "common.styles.css";
+
+/* Content */
+.breadcrumbs {
+  color: rgb(219, 219, 219);
+}
+
+.breadcrumbs a {
+  text-decoration: none;
+  color: grey;
+}
+
+.breadcrumbs a:hover {
+  color: rgb(156, 156, 156);
+}
+
+article h2 {
+  margin: 0;
+}
+
+.article-info {
+  font-size: small;
+  padding-bottom: 1rem;
+}
+
+.publication-date-time {
+  font-style: italic;
+}
+
+.publication-author {
+  font-style: italic;
+}
+
+.social-share-grid-container {
+  border-radius: 5px;
+  background-color: #414648;
+}
+
+.other-posts-container {
+  border-radius: 5px;
+  background-color: #414648;
+}
+
+.other-posts-container article h2 {
+  font-size: medium;
+}
+
+.other-posts-container article p {
+  font-size: small;
+}
+
+aside article .read-time {
+  font-size: small;
+  font-style: italic;
+}
