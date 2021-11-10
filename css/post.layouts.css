@@ -1,4 +1,6 @@
 @import "common.layouts.css";
+@import "common.utils.css";
+@import "scrollbar.css";
 
 body {
   align-items: start;
@@ -7,14 +9,13 @@ body {
 /* Content */
 .social-share-grid-container {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr;
   border-radius: 5px;
   background-color: #414648;
   align-items: start;
-  justify-items: center;
 }
 
-.social-share-grid-container img {
+.social-share-icon-container img {
   max-width: 2rem;
   padding: 0.5rem;
 }
@@ -50,8 +51,13 @@ body {
   padding: 0;
 }
 
-.article-image {
-  height: 350px;
+figure {
+  margin: 0;
+}
+
+figcaption {
+  font-size: small;
+  padding-bottom: 1rem;
 }
 
 aside {
@@ -63,7 +69,44 @@ aside {
 }
 
 aside .social-share-grid-container h2 {
+  padding: 1rem;
   margin: 0;
+  min-width: max-content;
+  grid-row: 1;
+}
+
+.social-share-icon-container {
+  grid-row: 2;
+  display: grid;
+  justify-items: center;
+}
+
+.social-share-icon-container a {
+  grid-row: 1;
+  padding: 0.6rem;
+}
+
+blockquote {
+  margin: 1rem 0;
+  padding: 0.5rem;
+  background-color: #414648;
+  border-radius: 5px;
+}
+
+.tags {
+  padding-top: 1rem;
+}
+
+.tag-button {
+  border-radius: 10px;
+  border: 0.5px solid goldenrod;
+  background-color: rgba(0, 0, 0, 0);
+  color: goldenrod;
+}
+
+.tag-button:hover {
+  opacity: 0.7;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 480px) {
@@ -82,11 +125,15 @@ aside .social-share-grid-container h2 {
     width: auto;
   }
 
-  .social-share-grid-container {
-    justify-items: center;
+  aside .social-share-grid-container h2 {
+    display: none;
   }
 
   .other-posts-container h2 {
     margin-top: 0.5rem;
+  }
+
+  blockquote {
+    margin: 0.5rem 0 0.5rem 0;
   }
 }

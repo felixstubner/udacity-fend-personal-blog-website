@@ -1,31 +1,5 @@
-@font-face {
-  font-family: roboto-regular;
-  src: url("/fonts/Roboto/Roboto-Regular.ttf");
-}
-
-@font-face {
-  font-family: roboto-bold;
-  src: url("/fonts/Roboto/Roboto-Bold.ttf");
-}
-
-/* Scrollbar */
-::-webkit-scrollbar {
-  width: 10px;
-}
-
-::-webkit-scrollbar-track {
-  background: #2b2b2b;
-  border-left: 1px solid #555;
-}
-
-::-webkit-scrollbar-thumb {
-  background: #888;
-  border-radius: 5px;
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background: #555;
-}
+@import "common.utils.css";
+@import "scrollbar.css";
 
 body {
   color: rgb(219, 219, 219);

@@ -1,3 +1,6 @@
+@import "common.utils.css";
+@import "scrollbar.css";
+
 body {
   margin: 0;
   display: grid;
@@ -54,7 +57,7 @@ nav {
 
 .article-image {
   width: 100%;
-  height: 150px;
+  height: 250px;
   border-radius: 5px;
   object-fit: cover;
 }
